@@ -33,7 +33,7 @@ function totalRelease (yearlyInCome, numberOfParent, isMarried, numberOfChild) {
     return yearlyInCome - (self + parent + married);
 }
 
-const total = totalRelease(30000000,0,false,2)
+const total = totalRelease(12000000,0,false,2)
 console.log("Total Release:"+ total)
 
 let taxamount = 0
