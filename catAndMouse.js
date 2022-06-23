@@ -2,15 +2,18 @@
 
 
 function catAndMouse(catA, catB,mouseC) {
-    let result1 = math.abs(catA-mouseC)
-    let result2 = math.abs(catB-mouseC)
+    let result1 = Math.abs(catA-mouseC)
+    let result2 = Math.abs(catB-mouseC)
     
     if(result1>result2){
-        console.log("catA  catched")
+        return("cat A")
     }else if(result1<result2) {
-        console.log("catB catched")
+        return("cat B")
     }else {
-        console.log("mouse is running")
+        return("mouse C")
     }
     
 }
+
+let result =catAndMouse(3,5,7)
+console.log(result)
